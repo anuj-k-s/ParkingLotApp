@@ -8,13 +8,9 @@ import org.hibernate.HibernateException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.skillenza.parkinglotjava.controller.ParkingLotController;
 import com.skillenza.parkinglotjava.exception.BuisnessException;
-import com.skillenza.parkinglotjava.exception.ResourceNotFoundException;
 import com.skillenza.parkinglotjava.model.dto.Constants;
 import com.skillenza.parkinglotjava.model.dto.VechileParkingDetails;
 import com.skillenza.parkinglotjava.model.entity.ParkingLot;
