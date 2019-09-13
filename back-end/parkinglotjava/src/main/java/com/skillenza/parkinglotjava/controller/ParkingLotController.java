@@ -42,6 +42,12 @@ public class ParkingLotController {
 		}
 
 	}
+	
+	@GetMapping("/api/park")
+	public ResponseEntity<String> testurl() {
+		return new ResponseEntity<String>("OK done", HttpStatus.OK);
+
+	}
 
 	@PostMapping("/api/parkings")
 	public ResponseEntity<ParkingLot> parkVechicle(@RequestBody VechileParkingDetails vehicleinfo) throws Exception {
